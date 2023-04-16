@@ -238,6 +238,11 @@ header h2 {
   font-weight: 500;
   line-height: 27px;
   font-weight: 200px;
+  margin-left: 20px;
+}
+
+.miss{
+  margin-left: 20px;
 }
 
 .main-c{
@@ -465,10 +470,17 @@ ul li a {
   }
 
   .main-p{
-    font-size: 12px;
+    font-size: 16px;
+    margin-left: 0px;
   }
+
+  .miss{
+    margin-left: 0px;
+  }
+
   .main-c{
-    font-size: 12px;
+    font-size: 16px;
+    margin-right:0px ;
   }
 
   .ijk{
@@ -478,8 +490,8 @@ ul li a {
   }
 
   .klm{
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
   }
 
   .abg{

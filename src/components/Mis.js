@@ -15,7 +15,7 @@ function Mis() {
           <img alt="about" src={mis} className='ijk' />
         </div>
         <div className="col-md-6">
-          <h2 className="main-title about-h2">Mission</h2>
+          <h2 className="main-title about-h2 miss">Mission</h2>
           <p className="main-p">
             <ul>
                 <li>Awakening Empire and Associates will continually strive to inspire ,innovate and motivate to impact generations</li>
