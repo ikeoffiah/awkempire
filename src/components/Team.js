@@ -11,72 +11,72 @@ function Team() {
   return (
     <div className="container services">
       <h2 className="main-title text-center">Team</h2>
-      <div className="card-cover">
-        <div className="col-md-12">
-          <div className="row team">
-            <div className="col-md-4 mb-2">
+      <div className="">
+        <div className="">
+          <div className=" team">
+            <div className="ind mb-2">
               <div>
                 <img
                   src={kirch}
                   alt="img"
-                  style={{ height: "400px", width: "400px" }}
+                  className='klm'
                 />
               </div>
             </div>
-            <div className="col-md-4 mb-2">
+            <div className="ind mb-2">
               <div>
                 <img
                   src={far}
                   alt="img"
-                  style={{ height: "400px", width: "400px" }}
+                  className='klm'
                 />
               </div>
             </div>
-            <div className="col-md-4 mb-2">
+            <div className="ind mb-2">
               <div>
                 <img
                   src={christ}
                   alt="img"
-                  style={{ height: "400px", width: "400px" }}
+                  className='klm'
                 />
               </div>
             </div>
-            <div className="col-md-4 mb-2">
+            <div className="ind mb-2">
               <div>
                 <img
                   src={emma}
                   alt="img"
-                  style={{ height: "400px", width: "400px" }}
+                  className='klm'
                 />
               </div>
             </div>
 
-            <div className="col-md-4 mb-2">
+            <div className="ind mb-2">
               <div>
                 <img
                   src={prince}
                   alt="img"
-                  style={{ height: "400px", width: "400px" }}
+                  className='klm'
                 />
               </div>
             </div>
 
-            <div className="col-md-4 mb-2">
+            <div className="ind mb-2">
               <div>
                 <img
                   src={bridget}
                   alt="img"
-                  style={{ height: "400px", width: "400px" }}
+                  className='klm'
                 />
               </div>
             </div>
 
-            <div className="col-md-4 mb-2">
+            <div className="ind mb-2">
               <div>
                 <img
                   src={pius}
                   alt="img"
-                  style={{ height: "400px", width: "400px" }}
+                  className='klm'
                 />
               </div>
             </div>

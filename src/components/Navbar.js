@@ -39,7 +39,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="container">
         <div className="row">
-          <h1 className="logo">
+       
             <Link
               spy={true}
               smooth={true}
@@ -47,9 +47,9 @@ function Navbar() {
               to="headerbg"
               style={{ cursor: "pointer" }}
             >
-              <img src={logo} alt='' style={{height:'100px', width:'100px'}}/>
+              <img src={logo} alt='' className="log"/>
             </Link>
-          </h1>
+        
           <ul className={vas?'vac':'bar' }>
             <li>
               <Link

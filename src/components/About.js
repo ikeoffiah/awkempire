@@ -11,8 +11,8 @@ function About() {
 
       <div className="container about">
         <div className="row">
-          <div className="col-md-6 text-center">
-            <img alt="about" src={kirchoff} style={{ height:'500px', width:'500px',marginRight:'40px'}} />
+          <div className="col-md-6 text-center ">
+            <img alt="about" src={kirchoff} className='abg' />
           </div>
           <div className="col-md-6">
             <h2 className="main-title about-h2">Who we are</h2>

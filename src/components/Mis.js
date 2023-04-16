@@ -12,7 +12,7 @@ function Mis() {
     <div className="container about">
       <div className="raw">
       <div className="col-md-6 text-center">
-          <img alt="about" src={mis} style={{ height:'400px', width:'600px',marginRight:'40px', borderRadius:'10px'}} />
+          <img alt="about" src={mis} className='ijk' />
         </div>
         <div className="col-md-6">
           <h2 className="main-title about-h2">Mission</h2>

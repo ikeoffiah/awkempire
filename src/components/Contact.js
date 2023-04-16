@@ -21,6 +21,7 @@ function Contact() {
                 Send Message
               </button>
             </div>
+            <br/>
           </form>
         </div>
       </div>
