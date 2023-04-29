@@ -17,17 +17,11 @@ function About() {
           <div className="col-md-6">
             <h2 className="main-title about-h2">Who we are</h2>
             <p className="main-p">
-              Awakening Empire Group is a leading socio-corporate institution
-              committed to creating a world where everyone can have a sense of
-              purpose, leaving a legacy of practical benefits, and making the
-              world a better place through value creation in career development,
-              leadership, and transformation services. We aim to provide
-              employment avenues, promote a multi-culture environment for people
-              to thrive, and partner with people and environment-focused
-              organizations across the globe to satisfy the Sustainable
-              Development Goals (SDGs) and impact generations positively.
+Welcome to Awakening Empire Group! We are a socio-corporate institution founded in 2022 by our CEO, Kirchoff Baidoo, and are headquartered in Accra, Ghana, West Africa. We currently have a team of 10 dedicated employees who share our passion for creating a world where everyone can have a sense of purpose and make a positive impact.
+At Awakening Empire Group, we serve not only our local community in Ghana but also the larger African and international communities. We are committed to providing career development, leadership, and transformation services to empower individuals and create value for our clients.
+Our current ongoing project is the Prescripzone Medical Project, which we launched in 2022. Through this initiative, we aim to improve access to quality healthcare in Ghana and beyond.
+At Awakening Empire Group, we believe that our success is closely tied to the success of the communities we serve. As such, we prioritize partnerships with people and environment-focused organizations across the globe to satisfy the Sustainable Development Goals (SDGs) and impact generations positively. Join us today and let's make the world a better place together.
             </p>
-           
           </div>
         </div>
       </div>
