@@ -1,5 +1,5 @@
 import { Link } from "react-scroll";
-import logo from '../assets/awaken.jpg'
+import logo from '../assets/awakglo.png'
 import {useState} from 'react'
 
 
@@ -45,9 +45,13 @@ function Navbar() {
               smooth={true}
               duration={1000}
               to="headerbg"
-              style={{ cursor: "pointer" }}
+              style={{ cursor: "pointer", display:'flex', alignItems:'center' }}
             >
               <img src={logo} alt='' className="log"/>
+              <div style={{fontSize:'20px', fontWeight:'700'}}>
+                <div>Awakening Empire</div>
+                <div>and Associates</div>
+              </div>
             </Link>
         
           <ul className={vas?'vac':'bar' }>
