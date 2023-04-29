@@ -46,10 +46,10 @@ function Footer() {
                 <p className="footer-title">Contact</p>
                 <ul>
                   <li>
-                    <Link to="#" >kirchoff@awkeningempire.com</Link>
+                    <Link to="#" >info@awakeningempire.org/</Link>
                   </li>
                   <li>
-                    <Link to="#" > Address #3265</Link>
+                    <Link to="#" > Address Accra, Ghana, West Africa</Link>
                   </li>
                   <li>
                     <Link to="#" >+447863058060</Link>
