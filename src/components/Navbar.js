@@ -1,5 +1,5 @@
 import { Link } from "react-scroll";
-import logo from '../assets/awakglo.png'
+import logo from '../assets/awaken.jpg'
 import {useState} from 'react'
 
 

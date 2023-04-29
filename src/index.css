@@ -302,8 +302,8 @@ footer .logo {
 }
 
 .log{
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 110px;
 }
 .logo a{
   text-decoration: none;
@@ -499,6 +499,7 @@ ul li a {
     height: 300px;
     margin-left: 0px;
   }
+  
   .raw{
     display: grid;
     grid-template-columns: auto;
