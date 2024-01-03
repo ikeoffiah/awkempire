@@ -4,12 +4,16 @@ import Contact from '../components/Contact';
 import Team from './Team';
 import MisVis from './MisVis';
 import Mis from './Mis';
+import Mockup from './prescripzonesec';
+
 
 function Main() {
+  
   return (
     <>
       <main>
         <Services />
+        <Mockup/>
         <About />
         <MisVis/>
         <Mis/>
