@@ -1,16 +1,16 @@
-import Navbar from "./components/Navbar";
-import Header from "./components/Header";
-import Main from "./components/Main";
-import Footer from "./components/Footer";
+
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import HomePage from "./page/HomePage";
+import PrivacyPolicy from "./page/PrivacyPolicy";
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <Header />
-      <Main />
-      <Footer />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage/>}/>
+        <Route path="/privacy-policy" element={<PrivacyPolicy/>} />
+      </Routes>
+    </Router>
   );
 }
 
