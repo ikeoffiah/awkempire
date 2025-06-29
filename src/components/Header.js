@@ -1,6 +1,16 @@
 import React from 'react';
 
 function Header() {
+  const handleLearnMore = () => {
+    const servicesSection = document.getElementById('services');
+    if (servicesSection) {
+      servicesSection.scrollIntoView({ 
+        behavior: 'smooth',
+        block: 'start'
+      });
+    }
+  };
+
   return (
     <header className="modern-header">
       <div className="header-overlay"></div>
@@ -10,8 +20,8 @@ function Header() {
           Inspiring Generations, Creating Opportunities, and Building a Sustainable Future Together
         </h2>
         <div className="header-cta">
-          <button className="cta-button primary">Our Services</button>
-          <button className="cta-button secondary">Learn More</button>
+          <button className="cta-button primary" onClick={handleLearnMore}>Our Services</button>
+          <button className="cta-button secondary" onClick={handleLearnMore}>Learn More</button>
         </div>
       </div>
       <div className="headerbg"></div>
