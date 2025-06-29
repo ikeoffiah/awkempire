@@ -9,37 +9,53 @@ function MisVis() {
         className="about-scroll"
       ></div>
 
-      <div className="container about">
-        <div className="raw">
-          <div className="col-md-6">
-            <h2 className="main-title about-h2">Vision</h2>
-            <p className="main-c">
-              <ul>
-                <li>
-                  Awakening Empire and Associates (Awakening empire group) exist
-                  to create a world and build communities where everyone can
-                  have a sense of purpose
-                </li>
-                <li>
-                  Awakening empire and associates aims to leave a legacy that of
-                  a more a practical benefits and to give the world an
-                  insightful experience and will go a long way to make the world
-                  a better place
-                </li>
-                <li>
-                  Awakening Empire and Associates aims to be a leading
-                  socio-corporate institution across the globe through our
-                  initiatives and projects cutting across every sphere of the
-                  human existence
-                </li>
-              </ul>
-            </p>
+      <section className="vision-section">
+        <div className="container">
+          <div className="section-header">
+            <h2 className="section-title">Our Vision</h2>
+            <p className="section-subtitle">Guiding our path forward</p>
           </div>
-          <div className="col-md-6 text-center">
-            <img alt="about" src={vis} className="ijk" />
+          
+          <div className="vision-content">
+            <div className="vision-image">
+              <img alt="Vision" src={vis} className="vision-img" />
+              <div className="image-overlay"></div>
+            </div>
+            
+            <div className="vision-text">
+              <div className="vision-card">
+                <div className="vision-icon">
+                  <i className="fas fa-globe"></i>
+                </div>
+                <div className="vision-item">
+                  <h3>Creating Purposeful Communities</h3>
+                  <p>Awakening Empire and Associates exists to create a world and build communities where everyone can have a sense of purpose.</p>
+                </div>
+              </div>
+              
+              <div className="vision-card">
+                <div className="vision-icon">
+                  <i className="fas fa-lightbulb"></i>
+                </div>
+                <div className="vision-item">
+                  <h3>Leaving a Lasting Legacy</h3>
+                  <p>We aim to leave a legacy of practical benefits and give the world an insightful experience that will make the world a better place.</p>
+                </div>
+              </div>
+              
+              <div className="vision-card">
+                <div className="vision-icon">
+                  <i className="fas fa-chart-line"></i>
+                </div>
+                <div className="vision-item">
+                  <h3>Global Leadership</h3>
+                  <p>We strive to be a leading socio-corporate institution across the globe through initiatives and projects that span every sphere of human existence.</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }

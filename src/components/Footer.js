@@ -1,72 +1,75 @@
-import { Link, animateScroll as scroll } from 'react-scroll'
-import logo from '../assets/awakglo.png'
+import React from 'react';
+import { Link, animateScroll as scroll } from 'react-scroll';
+import logo from '../assets/awakglo.png';
 
 function Footer() {
-
-
   return (
-    <footer>
-      <div className="container">
-        <div className="row">
-          <div className="side1">
-            <div className="row">
-              <div className="col-md-3">
-                <h1 className="logo"><img src={logo} alt='' style={{height:'50px', width:'50px'}}/></h1>
-                <p className="footer-text">
-                  Awakening Empire and Associates
-                </p>
+    <footer className="modern-footer">
+      <div className="footer-top">
+        <div className="container">
+          <div className="footer-content">
+            <div className="footer-brand">
+              <div className="footer-logo">
+                <img src={logo} alt='Awakening Empire Logo' />
               </div>
-              <div className="col-md-3">
-                <p className="footer-title">Important Link</p>
-                <ul>
-                  <li>
-                  <Link   
-                         spy={true}
-                         smooth={true}
-                         duration={1000}
-                         to="headerbg"
-                  > Home </Link>
-                  </li>
-                  <li>
-                  <Link to="services" spy={true} smooth={true} duration={1000} > Services </Link>
-                  </li>
-                  <li>
-                  <Link to="about-scroll" spy={true} smooth={true} duration={1000}>About Us  </Link>
-                  </li>
-                  {/* <li>
-                  <Link to="contact" spy={true} smooth={true} duration={1000}> Contact  </Link>
-                  </li> */}
-                </ul>
+              <h3>Awakening Empire</h3>
+              <p className="footer-tagline">
+                Inspiring Generations, Creating Opportunities, and Building a Sustainable Future Together
+              </p>
+              <div className="footer-social">
+                <a target="_blank" rel="noreferrer" href="https://web.facebook.com/awakening.empire.group" aria-label="Facebook">
+                  <i className="fab fa-facebook-f"></i>
+                </a>
+                <a target="_blank" rel="noreferrer" href="https://twitter.com/awakeningempgrp" aria-label="Twitter">
+                  <i className="fab fa-twitter"></i>
+                </a>
+                <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/company/awakening-empire-group/" aria-label="LinkedIn">
+                  <i className="fab fa-linkedin-in"></i>
+                </a>
               </div>
             </div>
-          </div>
-          <div className="side2">
-            <div className="row">
-              <div className="col-md-3">
-                <p className="footer-title">Contact</p>
+            
+            <div className="footer-links">
+              <div className="footer-links-column">
+                <h4>Quick Links</h4>
                 <ul>
                   <li>
-                    <Link to="#" >info@awakeningempire.org/</Link>
+                    <Link spy={true} smooth={true} duration={1000} to="headerbg">
+                      <i className="fas fa-chevron-right"></i> Home
+                    </Link>
                   </li>
                   <li>
-                    <Link to="#" > Address Accra, Ghana, West Africa</Link>
+                    <Link to="services" spy={true} smooth={true} duration={1000}>
+                      <i className="fas fa-chevron-right"></i> Services
+                    </Link>
                   </li>
                   <li>
-                    <Link to="#" >+447863058060</Link>
+                    <Link to="about-scroll" spy={true} smooth={true} duration={1000}>
+                      <i className="fas fa-chevron-right"></i> About Us
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="prescripzone" spy={true} smooth={true} duration={1000}>
+                      <i className="fas fa-chevron-right"></i> PrescripZone
+                    </Link>
                   </li>
                 </ul>
               </div>
-              <div className="col-md-3">
-                <p className="footer-title">Social Media</p>
-                <ul>
+              
+              <div className="footer-links-column">
+                <h4>Contact Us</h4>
+                <ul className="footer-contact-info">
                   <li>
-                    <a target="_blank" rel="noreferrer" href="https://web.facebook.com/awakening.empire.group" > facebook</a>
+                    <i className="fas fa-envelope"></i>
+                    <a href="mailto:info@awakeningempire.org">info@awakeningempire.org</a>
                   </li>
                   <li>
-                    <a target="_blank" rel="noreferrer" href="https://twitter.com/awakeningempgrp" > Twitter</a>
+                    <i className="fas fa-map-marker-alt"></i>
+                    <span>Accra, Ghana, West Africa</span>
                   </li>
                   <li>
-                    <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/company/awakening-empire-group/"> Linkedin</a>
+                    <i className="fas fa-phone-alt"></i>
+                    <a href="tel:+447863058060">+447863058060</a>
                   </li>
                 </ul>
               </div>
@@ -74,8 +77,16 @@ function Footer() {
           </div>
         </div>
       </div>
-      <button onClick={() => scroll.scrollToTop(2500)} src="" className="gotop"><i className="fas fa-level-up-alt"></i></button>
-
+      
+      <div className="footer-bottom">
+        <div className="container">
+          <p>&copy; {new Date().getFullYear()} Awakening Empire and Associates. All Rights Reserved.</p>
+        </div>
+      </div>
+      
+      <button onClick={() => scroll.scrollToTop(2500)} className="gotop">
+        <i className="fas fa-chevron-up"></i>
+      </button>
     </footer>
   );
 }

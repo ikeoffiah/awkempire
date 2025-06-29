@@ -4,10 +4,9 @@ import Header from "../components/Header";
 import Main from "../components/Main";
 import Footer from "../components/Footer";
 
-
 const HomePage = () => {
   return (
-    <div>
+    <div className="modern-layout">
       <Navbar />
       <Header />
       <Main />
