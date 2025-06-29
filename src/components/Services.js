@@ -24,7 +24,7 @@ function Services() {
             </div>
             <div className="service-content modern-service-content">
               <h3 className="service-title">Healthcare</h3>
-              <p className="service-description">PRESCRIPZONE is a health resource app for checking health, accessing health tips, newsletters, and talking to medical personnel.</p>
+              <p className="service-description">PRESCRIPZONE is a health resource app for accessing health tips, newsletters, and talking to medical personnel.</p>
               <a href="#" className="service-link modern-service-link">
                 <span>Learn More</span>
                 <i className="fas fa-arrow-right"></i>
@@ -43,7 +43,7 @@ function Services() {
             </div>
             <div className="service-content modern-service-content">
               <h3 className="service-title">Leadership</h3>
-              <p className="service-description">The ElevateNow Leadership Program empowers aspiring leaders to develop the skills, mindset, and strategies necessary to make a positive impact.</p>
+              <p className="service-description">Our Leadership Program empowers aspiring leaders to develop the skills, and strategies necessary to make a positive impact.</p>
               <a href="#" className="service-link modern-service-link">
                 <span>Learn More</span>
                 <i className="fas fa-arrow-right"></i>
