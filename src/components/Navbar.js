@@ -38,77 +38,74 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="container">
-        <div className="row">
-       
+        <Link
+          spy={true}
+          smooth={true}
+          duration={1000}
+          to="headerbg"
+          style={{ cursor: "pointer", display:'flex', alignItems:'center' }}
+        >
+          <img src={logo} alt='' className="log"/>
+          <div style={{fontSize:'20px', fontWeight:'700'}}>
+            <div>Awakening Empire</div>
+            <div>and Associates</div>
+          </div>
+        </Link>
+      
+        <ul className={vas?'vac':'bar' }>
+          <li>
             <Link
+              onClick={openBar}
+              activeClass="active"
               spy={true}
               smooth={true}
               duration={1000}
               to="headerbg"
-              style={{ cursor: "pointer", display:'flex', alignItems:'center' }}
             >
-              <img src={logo} alt='' className="log"/>
-              <div style={{fontSize:'20px', fontWeight:'700'}}>
-                <div>Awakening Empire</div>
-                <div>and Associates</div>
-              </div>
+              Home
             </Link>
-        
-          <ul className={vas?'vac':'bar' }>
-            <li>
-              <Link
-                onClick={openBar}
-                activeClass="active"
-                spy={true}
-                smooth={true}
-                duration={1000}
-                to="headerbg"
-              >
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link
-                onClick={openBar}
-                activeClass="active"
-                to="services"
-                spy={true}
-                smooth={true}
-                duration={1000}
-              >
-                Services
-              </Link>
-            </li>
-            <li>
-              <Link
-                onClick={openBar}
-                to="about-scroll"
-                spy={true}
-                smooth={true}
-                duration={1000}
-                activeClass="active"
-              >
-                About
-              </Link>
-            </li>
-            <li>
-              <Link
-                onClick={openBar}
-                to="contact"
-                spy={true}
-                smooth={true}
-                duration={1000}
-                activeClass="active"
-              >
-                Contact
-              </Link>
-            </li>
-          </ul>
-          <div className="button" onClick={openBar}>
-            <div className="burger"></div>
-            <div className="burger"></div>
-            <div className="burger"></div>
-          </div>
+          </li>
+          <li>
+            <Link
+              onClick={openBar}
+              activeClass="active"
+              to="services"
+              spy={true}
+              smooth={true}
+              duration={1000}
+            >
+              Services
+            </Link>
+          </li>
+          <li>
+            <Link
+              onClick={openBar}
+              to="about-scroll"
+              spy={true}
+              smooth={true}
+              duration={1000}
+              activeClass="active"
+            >
+              About
+            </Link>
+          </li>
+          <li>
+            <Link
+              onClick={openBar}
+              to="contact"
+              spy={true}
+              smooth={true}
+              duration={1000}
+              activeClass="active"
+            >
+              Contact
+            </Link>
+          </li>
+        </ul>
+        <div className="button" onClick={openBar}>
+          <div className="burger"></div>
+          <div className="burger"></div>
+          <div className="burger"></div>
         </div>
       </div>
     </nav>
