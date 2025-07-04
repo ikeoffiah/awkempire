@@ -11,8 +11,9 @@ function Footer() {
             <div className="footer-brand">
               <div className="footer-logo">
                 <img src={logo} alt='Awakening Empire Logo' />
+                <h3>Awakening Empire & Associates</h3>
               </div>
-              <h3>Awakening Empire</h3>
+              
               <p className="footer-tagline">
                 Inspiring Generations, Creating Opportunities, and Building a Sustainable Future Together
               </p>
