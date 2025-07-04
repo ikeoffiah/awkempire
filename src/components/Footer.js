@@ -17,7 +17,7 @@ function Footer() {
               <p className="footer-tagline">
                 Inspiring Generations, Creating Opportunities, and Building a Sustainable Future Together
               </p>
-              <div className="footer-social">
+              {/* <div className="footer-social">
                 <a target="_blank" rel="noreferrer" href="https://web.facebook.com/awakening.empire.group" aria-label="Facebook">
                   <i className="fab fa-facebook-f"></i>
                 </a>
@@ -27,7 +27,7 @@ function Footer() {
                 <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/company/awakening-empire-group/" aria-label="LinkedIn">
                   <i className="fab fa-linkedin-in"></i>
                 </a>
-              </div>
+              </div> */}
             </div>
             
             <div className="footer-links">
