@@ -67,7 +67,7 @@ function Mockup() {
               </div>
               
               <div className="download-section">
-                <h3>Download the App</h3>
+                <h3>Download the App (For Android Users)</h3>
                 <p>Scan the QR code to download PrescripZone</p>
                 <div className="qr-container">
                   <QRCode 
