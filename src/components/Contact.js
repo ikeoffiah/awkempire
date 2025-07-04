@@ -25,7 +25,7 @@ function Contact() {
               </div>
               <div className="contact-info-content modern-contact-info-content">
                 <h3>Phone Number</h3>
-                <p>+233 20 123 4567</p>
+                <p>+233 55 603 7427</p>
               </div>
             </div>
             <div className="contact-info-item modern-contact-info-item">
