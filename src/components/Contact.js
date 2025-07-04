@@ -38,16 +38,16 @@ function Contact() {
               </div>
             </div>
             <div className="contact-social modern-contact-social">
-              <a href="#" aria-label="Facebook" className="contact-social-icon modern-contact-social-icon">
+              <a href="https://web.facebook.com/awakening.empire.group" aria-label="Facebook" className="contact-social-icon modern-contact-social-icon">
                 <i className="fab fa-facebook-f"></i>
               </a>
-              <a href="#" aria-label="Twitter" className="contact-social-icon modern-contact-social-icon">
+              <a href="https://x.com/awakeningempgrp" aria-label="Twitter" className="contact-social-icon modern-contact-social-icon">
                 <i className="fab fa-twitter"></i>
               </a>
-              <a href="#" aria-label="Instagram" className="contact-social-icon modern-contact-social-icon">
+              <a href="https://www.instagram.com/awakeningempiregroup/" aria-label="Instagram" className="contact-social-icon modern-contact-social-icon">
                 <i className="fab fa-instagram"></i>
               </a>
-              <a href="#" aria-label="LinkedIn" className="contact-social-icon modern-contact-social-icon">
+              <a href="https://www.linkedin.com/company/awakening-empire-group" aria-label="LinkedIn" className="contact-social-icon modern-contact-social-icon">
                 <i className="fab fa-linkedin-in"></i>
               </a>
             </div>
