@@ -61,7 +61,7 @@ function Footer() {
                 <ul className="footer-contact-info">
                   <li>
                     <i className="fas fa-envelope"></i>
-                    <a href="mailto:info@awakeningempire.org">info@awakeningempire.org</a>
+                    <a href="mailto:info@awakeningempire.org">admin@awakeningempire.org</a>
                   </li>
                   <li>
                     <i className="fas fa-map-marker-alt"></i>
@@ -69,7 +69,7 @@ function Footer() {
                   </li>
                   <li>
                     <i className="fas fa-phone-alt"></i>
-                    <a href="tel:+447863058060">+447863058060</a>
+                    <a href="tel:+233556037427">+233556037427</a>
                   </li>
                 </ul>
               </div>
