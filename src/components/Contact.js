@@ -34,7 +34,7 @@ function Contact() {
               </div>
               <div className="contact-info-content modern-contact-info-content">
                 <h3>Email Address</h3>
-                <p>info@awakeningempire.com</p>
+                <p>admin@awakeningempire.org</p>
               </div>
             </div>
             <div className="contact-social modern-contact-social">
